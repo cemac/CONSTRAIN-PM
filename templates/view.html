@@ -68,6 +68,8 @@
         <td style='width: 10%;'>{{row[i]}}</td>
         {% elif colnames[i-1] == "Country" %}
         <td style='width: 12%;'>{{row[i]}}</td>
+        {% elif colnames[i-1] == "Username" %}
+        <td style='width: 15%;'>{{row[i]}}</td>
         {% else %}
         <td>{{row[i]}}</td>
         {% endif %}

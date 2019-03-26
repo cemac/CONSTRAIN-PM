@@ -26,7 +26,7 @@
         {% elif col == "Issues" %}
         <th style='width: 20%;'>{{col}}</th>
         {% elif col == "Username" %}
-        <th style='width: 10%;'>{{col}}</th>
+        <th style='width: 15%;'>{{col}}</th>
         {% elif col == "Country" %}
         <th style='width: 12%;'>{{col}}</th>
         {% elif col == "Code" %}
@@ -65,11 +65,9 @@
         {% elif colnames[i-1] == "Issues" %}
         <td style='width: 20%;'>{{row[i]}}</td>
         {% elif colnames[i-1] == "Username" %}
-        <td style='width: 10%;'>{{row[i]}}</td>
+        <td style='width: 15%;'>{{row[i]}}</td>
         {% elif colnames[i-1] == "Country" %}
         <td style='width: 12%;'>{{row[i]}}</td>
-        {% elif colnames[i-1] == "Username" %}
-        <td style='width: 20%;'>{{row[i]}}</td>
         {% else %}
         <td>{{row[i]}}</td>
         {% endif %}
@@ -100,4 +98,6 @@
   </table>
 </div>
 
+
+<hr>
 {% endblock %}

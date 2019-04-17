@@ -113,7 +113,7 @@
   }
 }
 
-/* Table Scrolling */
+/* Table Scrolling
 table {
   width: 100%;
 }
@@ -142,10 +142,11 @@ tbody {
 }
 
 thead {
-  /* fallback */
+
 }
 
 tbody td, thead th {
   width: 6.5%;
   float: left;
 }
+*/
